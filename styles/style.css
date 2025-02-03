@@ -82,6 +82,10 @@
   background-color: var(--accent-color, #ff0070);
 }
 
+.theme-light .decorative-rec {
+  display: none;
+}
+
 .decorated-zone::before {
   content: "";
   position: absolute;
