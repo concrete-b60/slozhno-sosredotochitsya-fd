@@ -1,8 +1,19 @@
 :root.theme-light {
-  --accent-bg-color: #FF8DCB;
+  --accent-bg-color: #ff8dcb;
   --accent-color: #000;
   --text-color: #000;
-  --title-color: #FFC2E6;
-  --bg-color: #FFF1F7;
+  --title-color: #ffc2e6;
+  --bg-color: #fff1f7;
   --bg-image: url("../images/cover-image-light.png");
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-bg-color: #ff8dcb;
+    --accent-color: #000;
+    --text-color: #000;
+    --title-color: #ffc2e6;
+    --bg-color: #fff1f7;
+    --bg-image: url("../images/cover-image-light.png");
+  }
 }
