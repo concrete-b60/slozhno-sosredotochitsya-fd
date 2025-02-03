@@ -31,6 +31,7 @@
 
 .header__theme-menu-button {
   border: none;
+  font-size: var(--main-font-size, 18px);
   color: var(--accent-color, #ff0070);
   text-transform: lowercase;
   background-color: transparent;
