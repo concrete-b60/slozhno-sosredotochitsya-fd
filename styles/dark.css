@@ -1,11 +1,7 @@
 :root.theme-dark {
   --accent-color: #ff0070;
   --accent-bg-color: #ff0070;
-  --text-color: #F1B2CE;
+  --text-color: #f1b2ce;
   --bg-color: #000;
   --bg-image: url("../images/cover-image-dark.png");
-}
-
-.theme-light .decorative-rec {
-    display: none;
 }

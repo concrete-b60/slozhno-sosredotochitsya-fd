@@ -7,13 +7,21 @@
   --bg-image: url("../images/cover-image-light.png");
 }
 
+.theme-light .decorative-rec {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-bg-color: #ff8dcb;
-    --accent-color: #000;
-    --text-color: #000;
-    --title-color: #ffc2e6;
-    --bg-color: #fff1f7;
-    --bg-image: url("../images/cover-image-light.png");
+      --accent-bg-color: #ff8dcb;
+      --accent-color: #000;
+      --text-color: #000;
+      --title-color: #ffc2e6;
+      --bg-color: #fff1f7;
+      --bg-image: url("../images/cover-image-light.png");
+  }
+
+  .theme-auto .decorative-rec {
+      display: none;
   }
 }
